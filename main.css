@@ -6,11 +6,22 @@
 }
 
 html {
-    background: rgba(128, 128, 128, 0.7) url("img/camera.jpg") no-repeat center center fixed;
+    background: rgba(128, 128, 128, 0.7) url("img/blurgradient.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.box {
+    width: 60%;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 h1 {
@@ -19,11 +30,50 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin-top: 2rem;
-    color: #FBEA74;
+    color: white;
 }
 
 p {
     font-family: 'Kalam', cursive;
     text-align: center;
-    color: #FBEA74;
+    color: white;
+}
+
+.box form #search {
+    display: block;
+    border: 1px solid white;
+    background: transparent;
+    padding: .5em;
+    font-size: 1.5em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+#searchButton {
+    text-align: center;
+    background: transparent;
+    font-size: 2em;
+}
+
+#findMyMovie {
+    font-size: .5em;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    padding: .5rem;
+}
+
+.box #searchResults ul {
+    list-style-type: none;
+}
+
+.box #searchResults li img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
 }
