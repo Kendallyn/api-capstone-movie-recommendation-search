@@ -74,6 +74,7 @@ p {
 
 .box #searchResults li img {
     display: block;
-    max-width: 100%;
+    width: 50%;
     border-radius: 10px;
+    margin-top: 1rem;
 }
