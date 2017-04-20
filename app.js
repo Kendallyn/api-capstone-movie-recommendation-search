@@ -6,13 +6,14 @@ $(document).ready(function () {
     });
 
     function getSearchResults(userEntry) {
+        //address from tastedive?
         $.getJSON("https://tastedive.com/api/similar") {
                 q: userEntry,
                 type: 'movies',
                 info: 1,
-                limit: 20,
+                limit: 18,
                 k: '267623-Thinkful-76WV9F3O',
-                //callback: 'foo'
+                callback: 'foo'
             },
             function (apiData) {
                 console.log(apiData);
@@ -23,10 +24,10 @@ $(document).ready(function () {
                 }
             });
 
-    function displayResults(videoArray) {
+    function displayResults( ? ? ) {
         var createHtmlList = "";
-        //space
-        $.each(videoArray, function (videoArrayKey, videoArrayValue) {
+
+        $.each( ? ? , function (Key, Value) {
             createHtmlList += "<li>";
             //space
             createHtmlList += "<p>" + //videoArrayValue.snippet.title + "</p>";
