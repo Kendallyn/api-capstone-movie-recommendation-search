@@ -11,17 +11,14 @@ html {
 }
 
 ::-webkit-input-placeholder {
-    /* Chrome */
     color: #846C5B;
 }
 
 :-ms-input-placeholder {
-    /* IE 10+ */
     color: #846C5B;
 }
 
 ::-moz-placeholder {
-    /* Firefox 19+ */
     color: #846C5B;
     opacity: 1;
 }
