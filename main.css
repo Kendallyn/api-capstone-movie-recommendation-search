@@ -10,17 +10,9 @@ html {
     background-size: 100% 100%;
 }
 
-::-webkit-input-placeholder {
-    color: #846C5B;
-}
-
-:-ms-input-placeholder {
-    color: #846C5B;
-}
-
-::-moz-placeholder {
-    color: #846C5B;
-    opacity: 1;
+input::placeholder {
+    color: #96031A;
+    font-family: 'Kalam', cursive;
 }
 
 .box {
@@ -30,8 +22,6 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 5rem;
-    border: 2px solid white;
-    border-radius: 10px;
 }
 
 h1 {
@@ -55,31 +45,37 @@ h1 {
 .box form #search {
     display: block;
     border: 1px solid #846C5B;
-    background: transparent;
     padding: .5em;
     font-size: 1.5em;
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
     text-align: center;
-    color: #846C5B;
+    color: #96031A;
 }
 
 #searchButton {
     text-align: center;
-    background: transparent;
     font-size: 2em;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 #findMyMovie {
     font-size: .5em;
     border: 1px solid #846C5B;
-    background: transparent;
+    background: #96031A;
     border-radius: 10px;
-    color: #846C5B;
+    color: white;
     padding: .5rem;
     margin-top: 1rem;
+    font-family: 'Kalam', cursive;
 }
 
 .box #searchResults ul {
