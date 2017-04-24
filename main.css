@@ -24,8 +24,8 @@ input::placeholder {
     padding-bottom: 5rem;
 }
 
-h1 {
-    font-family: 'Tangerine', cursive;
+.box h1 {
+    font-family: 'Arima Madurai', cursive;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
@@ -53,6 +53,7 @@ h1 {
     border-radius: 10px;
     text-align: center;
     color: #96031A;
+    font-family: 'Kalam', cursive;
 }
 
 #searchButton {
