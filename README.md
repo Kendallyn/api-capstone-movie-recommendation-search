@@ -10,5 +10,5 @@ Live site for Movie Search http://websitehere.com
 
 ## Screenshots
 ![screenshot](img/screenshots/startingpage.png)
-![screenshot](img/screenshots/usersearch.png)
-![screenshot](img/screenshots/searchresults.png)
+![screenshot](img/screenshots/userSearch.png)
+![screenshot](img/screenshots/searchResults.png)
