@@ -9,6 +9,6 @@ Movie Search for Thinkful API Capstone Project - a place to search for movies ty
 Live site for Movie Search http://websitehere.com
 
 ## Techincal:
--Front End used for app: HTML5, CSS3, JavaScript, jQuery
--App is responsive on mobile, tablets, and desktop viewports
+-Built with: HTML5, CSS3, JavaScript, jQuery
 -TasteDive API used to provide movie search results
+-App is responsive on mobile, tablets, and desktop viewports
