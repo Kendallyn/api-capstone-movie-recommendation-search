@@ -9,6 +9,6 @@ Live site for Movie Search http://websitehere.com
 * App is responsive on mobile devices and desktop viewports
 
 ## Screenshots
-![screenshot](img/screenshots/startingPage.png)
+![screenshot](img/screenshots/startingpage.png)
 ![screenshot](img/screenshots/userSearch.png)
 ![screenshot](img/screenshots/searchResults.png)
