@@ -7,12 +7,9 @@ $(document).ready(function () {
         } else {
             getSearchResults(userSearch);
         }
-
     });
 
     function getSearchResults(userEntry) {
-        //address from tastedive?
-
         var params = {
             q: userEntry,
             type: 'movies',
@@ -31,7 +28,7 @@ $(document).ready(function () {
             })
             /* if the call is successful (status 200 OK) show results */
             .done(function (output) {
-                /* if the results are meeningful, we can just console.log them */
+                /* if the results are meaningful, we can just console.log them */
                 //console.log(output.Similar.Results);
                 if (output.Similar.Results.length == 0) {
                     alert("No results found for " + userEntry);
@@ -60,7 +57,6 @@ $(document).ready(function () {
             createHtmlList += "<a href='" + Value.yUrl + "' target='_blank'><img src='img/placeholder.jpg'></a>";
             createHtmlList += "<p>" + Value.wTeaser + "</p>";
             createHtmlList += "</li>";
-            //space
             //                        createHtmlList += "<p>" + videoArrayValue.snippet.title + "</p>";
             //                        createHtmlList += "<a href='https://tastedive.com/api/similar" + videoArrayValue.id.videoId + "'>";
             //                        createHtmlList += "<img src='";
