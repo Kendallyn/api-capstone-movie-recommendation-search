@@ -4,63 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Movie Search</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+
     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
 
 <body>
     <section class="box">
         <h1>Which movie is next?</h1>
-        <p>Can't figure out what movie to watch next? Search here for a type of movie and get recommendations on what to watch next!</p>
+        <p>Can't figure out what movie to watch next?</p>
+        <p>Search here for a type of movie and get recommendations on what to watch next from the Movie Search API!</p>
         <form id="searchForm">
-            <!--Search bar-->
             <input type='text' name='search' id='search' placeholder="Enter text here..." value="">
             <div id="searchButton">
                 <button type='submit' name='submit' id="findMyMovie">Find my movie!</button>
             </div>
-            <!--Place for search results to display-->
             <div id="searchResults">
                 <ul>
-                    <!--
-                    <li>
-    <h2>Some cool movie title</h2>
-    <a href="http://some-website.com"><img src="img/placeholder.jpg"></a>
-    <p>Movie description longer than a few characters so it's going to have some crazy blurb right here and here</p>
-</li>
-<li>
-    <h2>Some cool movie title</h2>
-    <a href="http://some-website.com"><img src="img/placeholder.jpg"></a>
-    <p>Movie description longer than a few characters so it's going to have some crazy blurb right here and here</p>
-</li>
-<li>
-    <h2>Some cool movie title</h2>
-    <a href="http://some-website.com"><img src="img/placeholder.jpg"></a>
-    <p>Movie description longer than a few characters so it's going to have some crazy blurb right here and here</p>
-</li>
-<li>
-    <h2>Some cool movie title</h2>
-    <a href="http://some-website.com"><img src="img/placeholder.jpg"></a>
-    <p>Movie description longer than a few characters so it's going to have some crazy blurb right here and here</p>
-</li>
-<li>
-    <h2>Some cool movie title</h2>
-    <a href="http://some-website.com"><img src="img/placeholder.jpg"></a>
-    <p>Movie description longer than a few characters so it's going to have some crazy blurb right here and here</p>
-</li>
-<li>
-    <h2>Some cool movie title</h2>
-    <a href="http://some-website.com"><img src="img/placeholder.jpg"></a>
-    <p>Movie description longer than a few characters so it's going to have some crazy blurb right here and here</p>
-</li>
--->
                 </ul>
             </div>
         </form>
     </section>
+    <footer>
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Kendallyn Lyon</p>
+        <ul>
+            <li>
+                <a href="mailto:kendallynlyon@hotmail.com?Subject=Hello" target="_blank">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Kendallyn" target="_blank">
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/kendallyn-lyon/" target="_blank">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
