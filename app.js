@@ -14,7 +14,7 @@ $(document).ready(function () {
             q: userEntry,
             type: 'movies',
             info: 1,
-            limit: 18,
+            limit: 20,
             k: '267623-Thinkful-76WV9F3O',
             callback: 'foo'
         };
