@@ -11,4 +11,3 @@ Live site for Movie Search https://kendallyn.github.io/api-capstone-movie-search
 ## Screenshots
 ![screenshot](img/screenshots/userSearch.png)
 ![screenshot](img/screenshots/searchResults.png)
-
