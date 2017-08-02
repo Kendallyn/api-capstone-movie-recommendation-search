@@ -24,7 +24,7 @@ input::placeholder {
     padding-bottom: 5rem;
 }
 
-.box h1 {
+.box h2 {
     font-family: 'Arima Madurai', cursive;
     font-weight: bold;
     text-align: center;
@@ -169,7 +169,7 @@ footer ul li a .fa-envelope {
 }
 
 @media only screen and (max-width: 1000px) {
-    h1 {
+    h2 {
         line-height: 60px;
     }
     .box #searchResults li {
