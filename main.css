@@ -172,6 +172,10 @@ footer ul li a .fa-envelope {
     h2 {
         line-height: 60px;
     }
+    html,
+    body {
+        height: 100%;
+    }
     .box #searchResults li {
         display: block;
         width: 100%;
