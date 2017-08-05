@@ -183,4 +183,7 @@ footer ul li a .fa-envelope {
     .box #searchResults li img {
         height: auto;
     }
+    footer {
+        height: .5rem;
+    }
 }
